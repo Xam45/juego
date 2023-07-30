@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rgrgr</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+<div class="edit" id="animate"> 
+            <div class="cont_img">
+                14
+            </div> 
+</div>
+
+
+
+
+
+
+<script>
+// Practica!!! Que rote cuando el resultado sea igual a 14!
+
+
+const num1 = parseInt(prompt('num 1'));
+const num2 = parseInt(prompt('num 2'));
+const respuesta = num1 + num2;
+
+const animate = document.getElementById('animate')
+animate.addEventListener('dblclick', animate)
+animate.onclick=function(){
+if(respuesta == 14){
+        alert('click para mover');
+        animate.classList.toggle('editx2')
+        
+    }else{
+    alert('no puedes moverte ')
+}
+
+    
+
+    
+}
+
+console.log(respuesta)
+</script>
+
+
+
+</body>
+</html>
+
+		
+
+
+
+
+
+
